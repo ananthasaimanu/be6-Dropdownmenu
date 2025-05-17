@@ -1,8 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-   
-    
+      
 }   
 body{
     background-image: url(be6.jpg);
@@ -33,7 +32,7 @@ body{
 }
 .active, .menu-bar ul li:hover{
         background-color:rgb(63, 63, 60);
-        border-radius: 3px;
+        border-radius: 5px;
 }       
 .product{
     display: none;
@@ -44,11 +43,12 @@ body{
     margin-top: 15px;
     margin-left: -15px;
 }
+
 .menu-bar ul li:hover .product ul{
     display: block;
 }
 .menu-bar ul li:hover .product ul li{
-    width: 150px;
+    width: 100px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
@@ -73,6 +73,16 @@ body{
     position: absolute;
     margin: auto;
     margin-top: auto;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -170px;
+    background-color: rgba(240, 242, 243, 0.1);
 }
 .form{
     width: 200px;
