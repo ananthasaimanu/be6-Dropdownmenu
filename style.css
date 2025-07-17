@@ -31,7 +31,7 @@ body{
     color: white;
 }
 .active, .menu-bar ul li:hover{
-        background-color:rgb(63, 63, 60);
+        background-color:rgb(76, 46, 183);
         border-radius: 5px;
 }       
 .product{
@@ -42,6 +42,7 @@ body{
     position: absolute;
     margin-top: 15px;
     margin-left: -15px;
+    background:rgb(105, 38, 143);
 }
 
 .menu-bar ul li:hover .product ul{
@@ -51,7 +52,7 @@ body{
     width: 100px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
-    background: transparent;
+    background: rgb(230, 70, 7);
     text-align: left;
 }
 .menu-bar ul li:hover .product ul li:last-child{
@@ -88,7 +89,7 @@ body{
     width: 200px;
     height: 300px;
     border: 5px solid white;
-    background: linear-gradient(to top,rgba(240, 242, 243, 0.1)50%,rgb(63, 63, 60,0.2)50%);
+    background: linear-gradient(to top,rgba(17, 154, 222, 0.1)50%,rgba(169, 169, 101, 0.2)50%);
     position: absolute;
     top: 170px;
     right:10px;
@@ -96,10 +97,11 @@ body{
     padding: 50px;
 }
 .form h3{
-    color: #fff;
+    color: #d2c1db;
 }
 input{
     padding:10px;
+    border-radius: 50px;
 }
 .link{
     color: aqua;
@@ -107,5 +109,11 @@ input{
 .btn{
     background-color: chocolate;
     color: rgb(4, 2, 0);
-    padding: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
+.btn a{
+    text-decoration: none;
 }
